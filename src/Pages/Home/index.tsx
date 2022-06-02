@@ -1,10 +1,14 @@
-import React from 'react'
-import Header from '../../Components/Header'
+import React from "react";
+import Filters from "../../Components/Filters";
+import Header from "../../Components/Header";
 
 const Home: React.FC = () => {
-    return (
-        <Header />
-    )
-}
+  return (
+    <>
+      <Header />
+      <Filters />
+    </>
+  );
+};
 
-export default Home
+export default Home;
